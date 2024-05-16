@@ -27,3 +27,4 @@ n = int(input("Ingrese el número de la tabla deseada"))
 
 for i in range (1,11,1):
     print(f"{n} X {i} = {n*i}")
+    print("Hola")
