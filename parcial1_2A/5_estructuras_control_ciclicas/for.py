@@ -1,7 +1,7 @@
 #Ciclo For Estrcutura iterativa que se ejecuta X veces
 
 # Sintaxis
-#  for variable in elemento_iterable(lista, rango, etc)
+#  for variable in elemento_iterable(lista, rango, etc):
 #   bloque de instrucciones
 
 #Ejemplo 1 Crear un programa que imprima en pantalla 5 veces

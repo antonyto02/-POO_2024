@@ -1,7 +1,9 @@
-#Ciclo For Estrcutura iterativa que se ejecuta X veces
+#El Ciclo While es una Estrcutura iterativa que se ejecuta X veces siempre y 
+#cuando la condición se cumpla y se seguirá ejecutando tantas veces como se
+#True la condición
 
 # Sintaxis
-#  for variable in elemento_iterable(lista, rango, etc)
+#  while condicion:
 #   bloque de instrucciones
 
 #Ejemplo 1 Crear un programa que imprima en pantalla 5 veces
