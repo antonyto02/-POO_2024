@@ -9,23 +9,24 @@
 #Ejemplo 1 Crear un programa que imprima en pantalla 5 veces
 #el @
 
-contador = 3
-
-for contador in range (1,6,1):
+contador=10
+while contador <= 5:
     print("@")
+    contador +=1
 
-#Ejemplo 2 Crear un programa que imprima los números del 1 al 5 y los sume y al final imprima la suma
+# #Ejemplo 2 Crear un programa que imprima los números del 1 al 5 y los sume y al final imprima la suma
 
 suma = 0
+contador = 1
 
-for contador in range (1,6,1):
+while contador <= 5:
     print(contador)
-    suma = suma+contador
-print(f"La suma es: {suma}")
+    suma+=contador
+    contador+=1
 
-#Ejemplo 3 Crear un programa que imprima de multiplicar que el usuario desee
+# #Ejemplo 3 Crear un programa que imprima de multiplicar que el usuario desee
 
-n = int(input("Ingrese el número de la tabla deseada"))
+# n = int(input("Ingrese el número de la tabla deseada"))
 
-for i in range (1,11,1):
-    print(f"{n} X {i} = {n*i}")
+# for i in range (1,11,1):
+#     print(f"{n} X {i} = {n*i}")
