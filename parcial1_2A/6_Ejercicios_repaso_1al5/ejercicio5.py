@@ -3,7 +3,5 @@
 n1 = int(input("Ingrese el primer número (límite inferior)"))
 n2 = int(input("Ingrese el segundo número (límite superior)"))
 
-i = n1+1
-while i < n2:
+for i in range(n1+1,n2,1):
     print(i)
-    i += 1
