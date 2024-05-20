@@ -6,8 +6,6 @@
 pais = "México"
 continente = "América"
 
-print(f"País: {pais}")
-print(type(pais))
+print(f"País: {pais} {type(pais)}")
 
-print(f"Contiente: {continente}")
-print(type(continente))
+print(f"Contiente: {continente} {type(continente)}")
