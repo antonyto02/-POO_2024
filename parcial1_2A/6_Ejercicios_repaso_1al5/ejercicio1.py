@@ -9,3 +9,5 @@ continente = "América"
 print(f"País: {pais} {type(pais)}")
 
 print(f"Contiente: {continente} {type(continente)}")
+
+x = 33
