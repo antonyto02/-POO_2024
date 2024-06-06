@@ -1,4 +1,5 @@
 # funciones.py
+
 def saludo():
     return "Hola, ¿cómo estás?"
 
